@@ -833,10 +833,10 @@
     react-virtualized "9.19.1"
     simulant "^0.2.2"
 
-"@talend/scripts@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@talend/scripts/-/scripts-0.5.1.tgz#fef24529e819381f2699d42342ea60cf615871a1"
-  integrity sha512-Va2jJSkbJh+k3yKti7Er1x+m/74XPv/d3E7IylN/3koLosI0tLYyK5DE1iOdrSyY4AALqAYd7ZJkMCwHFqoKGA==
+"@talend/scripts@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@talend/scripts/-/scripts-0.5.2.tgz#7200304ecb86b78d36a356678787d49689bb49ec"
+  integrity sha512-oslt6aJyKw8/+R8Do0ww8+BgwZZd+HqbfOSPD/Xb0+5+9nGvcnuA/QPWDVe8o3o7ltHyFWO7FSZid+jNqVThTQ==
   dependencies:
     "@babel/cli" "^7.2.0"
     "@babel/core" "^7.2.0"
