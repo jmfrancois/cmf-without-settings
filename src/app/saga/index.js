@@ -3,7 +3,11 @@ import cmf from '@talend/react-cmf';
 import { HELLO_REDUX_TYPE } from '../constants';
 
 function* getData(action) {
-	const { response, data } = yield call(cmf.sagas.http.get, "https://jsonplaceholder.typicode.com/todos");
+	console.log('getData', action);
+	const { response, data } = yield call(
+		cmf.sagas.http.get,
+		'https://jsonplaceholder.typicode.com/todos',
+	);
 	if (response.ok) {
 		yield put(cmf.actions.collections.addOrReplace('todos', data));
 	}
@@ -12,4 +16,3 @@ function* getData(action) {
 export default function* main() {
 	yield takeEvery(HELLO_REDUX_TYPE, getData);
 }
-

@@ -6,12 +6,12 @@
 
 import cmf from '@talend/react-cmf';
 import components from './components';
-import actionCreators from './actions';
-import expressions from './expressions';
-import reducer from './reducers';
-import * as sagas from './sagas';
+// import actionCreators from './actions';
+// import expressions from './expressions';
+// import reducer from './reducers';
+// import * as sagas from './sagas';
 import saga from './saga';
-import App from './components/App';
+// import App from './components/App';
 
 /**
  * Initialize CMF

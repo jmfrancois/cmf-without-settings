@@ -22,7 +22,8 @@
   "author": "Talend Frontend <frontend@talend.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@talend/scripts": "0.5.1"
+    "@talend/scripts": "0.5.1",
+    "enzyme": "^3.8.0"
   },
   "dependencies": {
     "@talend/bootstrap-theme": "2.0.0-0",
@@ -30,6 +31,7 @@
     "@talend/react-components": "2.0.0-0",
     "primeicons": "^1.0.0",
     "primereact": "^2.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-i18next": "^8.4.0",
