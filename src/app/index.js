@@ -1,17 +1,7 @@
-/**
- * Import theme.
- * Being the first import is important, so that it is the default style
- * and other style can override it
- */
-
 import cmf from '@talend/react-cmf';
+import App from './components/App';
 import components from './components';
-// import actionCreators from './actions';
-// import expressions from './expressions';
-// import reducer from './reducers';
-// import * as sagas from './sagas';
 import saga from './saga';
-// import App from './components/App';
 
 /**
  * Initialize CMF
@@ -24,12 +14,8 @@ import saga from './saga';
  * API: https://github.com/Talend/ui/blob/master/packages/cmf/src/bootstrap.md
  */
 cmf.bootstrap({
-	// actionCreators,
 	components,
-	// expressions,
-	// reducer,
 	saga,
-	// sagas,
 	settingsURL: '/settings.json',
-	RootComponent: components.App,
+	RootComponent: App,
 });
