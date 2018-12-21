@@ -22,7 +22,7 @@
   "author": "Talend Frontend <frontend@talend.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@talend/scripts": "0.5.1",
+    "@talend/scripts": "0.5.2",
     "enzyme": "^3.8.0"
   },
   "dependencies": {
